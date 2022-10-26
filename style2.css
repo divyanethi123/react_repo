@@ -1,0 +1,30 @@
+.flex-container{
+    background-color: rgb(159, 159, 235);
+    display: flex;
+    border:2px solid gray;
+   justify-content: flex-end;
+
+}
+.flex-item{
+    
+    color: blue;
+    
+    margin: 10px;
+    width: 90;
+    height:90;
+
+}
+.flex-container2{
+    border:2px solid gray;
+ 
+    height:250px
+    
+}
+body{
+    text-align:center;
+    background-image:url('https://motivitylabs.com/wp-content/uploads/2020/06/abimg-min.png') ;
+    height: 300px;
+    width:auto;
+    background-size: cover;
+    
+}

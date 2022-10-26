@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>audio</title>
+        <style>
+            body{
+                background-color:rgb(221, 46, 40) ;
+
+            }
+            .fcontainer{
+                background-color: rgb(245, 13, 13);
+                border: 2px solid black;
+                margin: 100px;
+            }
+            
+            .fcontainer2{
+                background-color: rgb(245, 13, 13);
+                display: flex;
+                border: 2px solid black;
+                width: 80vw;
+                height:80vh;
+                margin: 50px;
+            }
+            .fitem{
+                background-color: rgb(245, 13, 13);
+                width: 500px;
+                height: 400px;
+                margin:30px;
+            }
+            img{
+                width:200px;
+            }
+        
+           
+
+        </style>
+          <script>
+            function plays(){
+             document.getElementById('song2').play();
+            }
+            function pause(){
+             document.getElementById('song2').pause();
+            }
+            function plays1(){
+             document.getElementById('song1').play();
+            }
+            function pause1(){
+             document.getElementById('song1').pause();
+            }
+            function plays3(){
+             document.getElementById('song3').play();
+            }
+            function pause3(){
+             document.getElementById('song3').pause();
+            }
+     
+            
+         </script>
+    </head>
+    <body>
+        <center>
+        <div class="fcontainer">
+            <h1>MEDIA ELEMENTS</h1>
+        </div>
+        <h1>Audio files</h1>
+        <div class="fcontainer2">   
+            <div class="fitem">
+                <image src="https://i.ytimg.com/vi/bKwTdjaJwjw/maxresdefault.jpg"></image>
+                <br>
+                <h2>NAATU NAATU</h2>
+               
+                <audio controls src="./Natu-Natu(PaglaSongs).mp3" type="audio/mp3" id="song1" style="display:none ;" >
+                    
+                 
+                  </audio>
+                  <button onclick="plays1()">play</button>
+                <button onclick="pause1()">pause</button>
+            </div>
+            <div class="fitem">
+                
+                <image src="https://i.ytimg.com/vi/2a34XyiZO14/maxresdefault.jpg"></image>
+              
+                <br>
+                <h2>LIFE OF RAM</h2>
+                <audio controls src="./[iSongs.info] 03 - Life Of Ram.mp3" type="audio/mp3" id="song2" style="display: none;">
+                 
+                  </audio>
+                  <button onclick="plays()">play</button>
+                <button onclick="pause()">pause</button>
+            </div>
+            <div class="fitem">
+                <image src="https://a10.gaanacdn.com/gn_img/song/0wrb4qNKLg/rb4lqklabL/size_l_1658468202.jpg"></image>
+                <br>3
+                <h2>OH SITHA </h2>
+               
+                <audio controls src="./[iSongs.info] 01 - Oh Sita Hey Rama.mp3" type="audio/mp3" id="song3" style="display:none ;">   
+                 
+                  </audio>
+                  <button onclick="plays3()">play</button>
+                <button onclick="pause3()">pause</button>
+            </div>
+            </div>
+    </center>
+  
+    </body>
+</html>
+
+

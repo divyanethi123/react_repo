@@ -1,0 +1,13 @@
+
+
+.d-flex input{
+    margin: 2em 0em;
+}
+.form-action-buttons{
+ padding-left: 50%;
+}
+.contaner table{
+    margin:10em 20em ;
+    width: 50%;
+    height: auto;
+}

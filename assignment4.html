@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration form</title>
+        <style>
+           .fcontainer
+           {
+            display: flex;
+            flex-wrap: nowrap;
+            text-align: center;
+           }
+           .fiteam{
+            margin-left: 200px;
+            margin-right: 200px;
+           }
+           body{
+            background-image: url('https://images.unsplash.com/flagged/photo-1554473675-d0904f3cbf38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbGxlZ2V8ZW58MHx8MHx8&w=1000&q=80');
+            background-size: cover;
+            color: red;   
+        }
+        button{
+            background-color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="fcontainer">
+            <div class="fiteam">
+            <h1>Registration Form</h1>
+            <form>
+                <label>First Name</label>
+                <br>
+                <input type="text" name="firstname" placeholder="Enter the firstname">
+                <br><br>
+                <label>Last Name</label>
+                <br>
+                <input type="text" name="lastname" placeholder="Enter the lastname">
+                 <br><br>
+                 <label>age</label>
+                 <br>
+                 <input type="text" name="age" placeholder="Enter age">
+                  <br><br>
+                  <label>Date of Birth</label>
+                  <br>
+                  <input type="date" name="DOB" placeholder="dd-mm-yyyy">
+                  <br><br>
+                  <label>e-mail</label>
+                  <br>
+                  <input type="email" name="email" placeholder="enter email" >
+                  <br><br>
+                  <label>password</label>
+                  <br>
+                  <input type="password" name="password" placeholder="password">
+                  <br><br>
+                  <label>Gender</label>
+                  <br>
+                  <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+                <br><br>
+                <label>state</label>
+                <br>
+                <select>
+                    <option value="Telengana">Telengana</option>
+                    <option value="Aandra Pradesh">Aandra Pradesh</option>
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">mumbai</option>
+                </select>
+                <br><br>
+                <label>Address</label>
+                <br>
+                <textarea name="address"></textarea>
+                <br><br>
+                <button type="button" value="submit">submit</button>
+            </form>
+        </div>
+
+          <div class="fitem2">
+            <h1>Signup form</h1>
+    
+            <p>(Using Selecters)</p>
+                 
+                <label>Name</label>
+                <br>
+                <input type="text" name="name" placeholder="enter the firstname">
+                <br><br>
+                <label>Email</label>
+                <br>
+                <input type="text" name="email" placeholder="enter email">
+                <br><br>
+                <label>password</label>
+                  <br>
+                  <input type="password" name="password" placeholder="password">
+                  <br><br>
+                  <label>message</label>
+                  <br>
+                  <textarea name="message"></textarea>
+                  <br><br>
+                  <label>state</label>
+                <br>
+                <select>
+                    <option value="Telengana">Telengana</option>
+                    <option value="Aandra Pradesh">Aandra Pradesh</option>
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">mumbai</option>
+                </select>
+                <br><br>
+                <label>Address</label>
+                <br>
+                <textarea name="address"></textarea>
+                <br><br>
+                <button type="button" value="submit">submit</button>
+            </form>
+        </div>
+    
+    </div>
+    </body>
+</html>
