@@ -4,7 +4,7 @@ import './index.css';
 // import Nav from './components/nav';
 
 import App from './App';
-import Company from './components/Company';
+// import Company from './components/Company';
 import Parent from './propsfunctions/Parent';
 // import Hocks from './components/hocks';
 // import Sample from './components/sample';
@@ -13,10 +13,10 @@ import Parent from './propsfunctions/Parent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <App /> */}
+     <App />
     {/* <Hocks/> */} 
     {/* <Sample/> */}
-       <Company/> 
+       {/* <Company/>  */}
   
    {/* <Parent></Parent> */}
   </React.StrictMode>
